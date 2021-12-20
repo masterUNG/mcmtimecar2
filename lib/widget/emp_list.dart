@@ -49,7 +49,7 @@ class _EmployeeListState extends State<EmployeeList> {
             IconButton(
               icon: const Icon(Icons.refresh),
               color: Colors.white,
-              onPressed: () async {                               
+              onPressed: () async {
                 refreshData();
               },
             ),
@@ -98,7 +98,12 @@ class _EmployeeListState extends State<EmployeeList> {
                                     employee.lastName;
                                 Register.urlImage = employee.urlImage;
                                 Register.macaddress = employee.macAddress;
-                                Navigator.pushNamed(context, '/register');
+                                Navigator.pushNamed(context, '/register')
+                                    .then((value) {
+                                  setState(() {
+                                    refreshData();
+                                  });
+                                });
                                 break;
 
                               case "approv_ot":

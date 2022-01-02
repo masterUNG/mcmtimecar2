@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "496018358107",
+    "project_id": "mcmhrapp",
+    "storage_bucket": "mcmhrapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496018358107:android:8aec36c9d9a44890de247e",
+        "android_client_info": {
+          "package_name": "com.mcmchemical.mcmhrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496018358107-f6sv0q9jb81lor01b4530is046bvguhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpyIUKENeoBl-IGHRRKaUkV3P0sFO4L2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496018358107-f6sv0q9jb81lor01b4530is046bvguhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496018358107:android:ec9138fc5c85dc8ade247e",
+        "android_client_info": {
+          "package_name": "com.mcmchemical.mcmtimecards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496018358107-f6sv0q9jb81lor01b4530is046bvguhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpyIUKENeoBl-IGHRRKaUkV3P0sFO4L2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496018358107-f6sv0q9jb81lor01b4530is046bvguhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

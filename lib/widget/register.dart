@@ -23,6 +23,9 @@ class _RegisterState extends State<Register> {
   String status = '';
   double screen = 400;
   String macaddress = Register.macaddress;
+
+  String token;
+
   @override
   Widget build(BuildContext context) {
     screen = MediaQuery.of(context).size.width;

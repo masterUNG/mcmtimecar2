@@ -42,3 +42,13 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+// /Users/chaiwootphrombutr/WorkSpace/FlutterConsult/mcmtimecar2/android/key
+
+  // keytool -genkey -v -keystore ~/upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+
+
+    // keytool -genkey -v -keystore /Users/chaiwootphrombutr/WorkSpace/FlutterConsult/mcmtimecar2/android/key/upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+
+

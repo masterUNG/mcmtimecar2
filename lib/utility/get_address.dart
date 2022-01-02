@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 import 'package:get_mac/get_mac.dart';
 import 'package:connectivity/connectivity.dart';
-import 'package:imei_plugin/imei_plugin.dart';
+// import 'package:imei_plugin/imei_plugin.dart';
 import 'package:mcmtimecards/database/wifibssid_api.dart';
 import 'package:mcmtimecards/models/wifibssid_model.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -94,8 +94,8 @@ class GetAddress {
   static Future<String> getImei() async {
     String platformImei = '';
     try {
-      platformImei =
-          await ImeiPlugin.getImei(shouldShowRequestPermissionRationale: false);
+      // platformImei =
+      //     await ImeiPlugin.getImei(shouldShowRequestPermissionRationale: false);
     } on PlatformException {
       platformImei = 'Failed to get platform version.';
     }

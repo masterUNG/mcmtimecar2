@@ -42,7 +42,7 @@ dependencies:
   location_permissions: ^4.0.1
   permission_handler: ^5.0.0+1
   intl: ^0.17.0
-  imei_plugin: ^1.2.0
+  firebase_core: ^1.10.6
 
 dev_dependencies:
   flutter_test:

@@ -44,7 +44,9 @@ class GetAddress {
         switch (result) {
           case ConnectivityResult.wifi:
             try {
-              wifiBSSID = await connectivity.getWifiBSSID();
+              // wifiBSSID = await connectivity.getWifiBSSID();
+              wifiBSSID = ConnectivityResult.wifi.name;
+              print('## wifiBSSID ===>> $wifiBSSID');
             } on PlatformException catch (e) {
               // ignore: avoid_print
               print(e.toString());
@@ -72,12 +74,14 @@ class GetAddress {
   }
 
   static Future<bool> checkWifiBase() async {
+    print('ceckWifiBase Work');
     List<Wifibssid> _wifibssids = <Wifibssid>[];
     List<Wifibssid> _filterwifibssids = <Wifibssid>[];
 
     var _bssid = await GetAddress.getBssid();
     await WifiBssidAPI.loadWifibssid().then((data) {
       _wifibssids = data;
+      print('## _wifissids ==>> $_wifibssids');
     });
 
     _filterwifibssids = _wifibssids.where((wifi) {

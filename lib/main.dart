@@ -15,7 +15,7 @@ Future<void> main() async {
   macaddress = await GetAddress.getImei();
   // maxaddress = await GetAddress.getMacAddress();
   mac = await EmployeeAPI.getMacaddress(macaddress);
-  if (mac.employeeid != null) {
+  if (!(mac.employeeid != null)) {
     // bssid = await GetAddress.getBssid();
     TimeCardMain.macaddress = mac;
     TimeCard.employeeid = mac.employeeid;
